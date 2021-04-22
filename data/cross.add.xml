@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 02/16/20 22:01:13 by Eclipse SUMO netedit Version 1.4.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="C:\Program%20Files%20(x86)\Eclipse\Sumo\doc\tutorial\traci_tls\data\cross.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="C:\Program%20Files%20(x86)\Eclipse\Sumo\doc\tutorial\traci_tls\data\cross.net.xml"/>
+    </output>
+
+    <processing>
+        <geometry.min-radius.fix.railways value="false"/>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="true"/>
+    </processing>
+
+    <junctions>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.5"/>
+        <rectangular-lane-cut value="false"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="false"/>
+    </pedestrian>
+
+    <netedit>
+        <additional-files value="C:\Program%20Files%20(x86)\Eclipse\Sumo\doc\tutorial\traci_tls\data\cross.add.xml"/>
+    </netedit>
+
+    <report>
+        <aggregate-warnings value="5"/>
+    </report>
+
+</configuration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <laneAreaDetector id="131" lane="1o_1" pos="300" length="188" file="cross.out" tl="0" timeThreshold="0" speedThreshold="10" jamThreshold="1"  vTypes="truck"/>
+    <laneAreaDetector id="130" lane="1o_0" pos="300" length="188" file="cross.out" tl="0" timeThreshold="0" speedThreshold="10" jamThreshold="1"  vTypes="truck"/>
+    <laneAreaDetector id="121" lane="1o_1" pos="300" length="188" file="cross.out" tl="0" timeThreshold="0" speedThreshold="10" jamThreshold="1"  vTypes="bus"/>
+    <laneAreaDetector id="120" lane="1o_0" pos="300" length="188" file="cross.out" tl="0" timeThreshold="0" speedThreshold="10" jamThreshold="1"  vTypes="bus"/>
+    <laneAreaDetector id="111" lane="1o_1" pos="300" length="188" file="cross.out" tl="0" timeThreshold="0" speedThreshold="10" jamThreshold="1"  vTypes="moped motorcycle"/>
+    <laneAreaDetector id="110" lane="1o_0" pos="300" length="188" file="cross.out" tl="0" timeThreshold="0" speedThreshold="10" jamThreshold="1"  vTypes="moped motorcycle"/>
+    <laneAreaDetector id="101" lane="1o_1" pos="300" length="188" file="cross.out" tl="0" timeThreshold="0" speedThreshold="10" jamThreshold="1"  vTypes="car taxi passenger"/>
+    <laneAreaDetector id="100" lane="1o_0" pos="300" length="188" file="cross.out" tl="0" timeThreshold="0" speedThreshold="10" jamThreshold="1"  vTypes="car taxi passenger"/>
+
+    <laneAreaDetector id="231" lane="2o_1" pos="300" length="188" file="cross.out" tl="0" timeThreshold="0" speedThreshold="10" jamThreshold="1"  vTypes="truck"/>
+    <laneAreaDetector id="230" lane="2o_0" pos="300" length="188" file="cross.out" tl="0" timeThreshold="0" speedThreshold="10" jamThreshold="1"  vTypes="truck"/>
+    <laneAreaDetector id="221" lane="2o_1" pos="300" length="188" file="cross.out" tl="0" timeThreshold="0" speedThreshold="10" jamThreshold="1"  vTypes="bus"/>
+    <laneAreaDetector id="220" lane="2o_0" pos="300" length="188" file="cross.out" tl="0" timeThreshold="0" speedThreshold="10" jamThreshold="1"  vTypes="bus"/>
+    <laneAreaDetector id="211" lane="2o_1" pos="300" length="188" file="cross.out" tl="0" timeThreshold="0" speedThreshold="10" jamThreshold="1"  vTypes="moped motorcycle"/>
+    <laneAreaDetector id="210" lane="2o_0" pos="300" length="188" file="cross.out" tl="0" timeThreshold="0" speedThreshold="10" jamThreshold="1"  vTypes="moped motorcycle"/>
+    <laneAreaDetector id="201" lane="2o_1" pos="300" length="188" file="cross.out" tl="0" timeThreshold="0" speedThreshold="10" jamThreshold="1"  vTypes="car taxi passenger"/>
+    <laneAreaDetector id="200" lane="2o_0" pos="300" length="188" file="cross.out" tl="0" timeThreshold="0" speedThreshold="10" jamThreshold="1"  vTypes="car taxi passenger"/>
+
+    <laneAreaDetector id="331" lane="3o_1" pos="300" length="188" file="cross.out" tl="0" timeThreshold="0" speedThreshold="10" jamThreshold="1"  vTypes="truck"/>
+    <laneAreaDetector id="330" lane="3o_0" pos="300" length="188" file="cross.out" tl="0" timeThreshold="0" speedThreshold="10" jamThreshold="1"  vTypes="truck"/>
+    <laneAreaDetector id="321" lane="3o_1" pos="300" length="188" file="cross.out" tl="0" timeThreshold="0" speedThreshold="10" jamThreshold="1"  vTypes="bus"/>
+    <laneAreaDetector id="320" lane="3o_0" pos="300" length="188" file="cross.out" tl="0" timeThreshold="0" speedThreshold="10" jamThreshold="1"  vTypes="bus"/>
+    <laneAreaDetector id="311" lane="3o_1" pos="300" length="188" file="cross.out" tl="0" timeThreshold="0" speedThreshold="10" jamThreshold="1"  vTypes="moped motorcycle"/>
+    <laneAreaDetector id="310" lane="3o_0" pos="300" length="188" file="cross.out" tl="0" timeThreshold="0" speedThreshold="10" jamThreshold="1"  vTypes="moped motorcycle"/>
+    <laneAreaDetector id="301" lane="3o_1" pos="300" length="188" file="cross.out" tl="0" timeThreshold="0" speedThreshold="10" jamThreshold="1"  vTypes="car taxi passenger"/>
+    <laneAreaDetector id="300" lane="3o_0" pos="300" length="188" file="cross.out" tl="0" timeThreshold="0" speedThreshold="10" jamThreshold="1"  vTypes="car taxi passenger"/>
+
+    <laneAreaDetector id="431" lane="4o_1" pos="300" length="188" file="cross.out" tl="0" timeThreshold="0" speedThreshold="10" jamThreshold="1"  vTypes="truck"/>
+    <laneAreaDetector id="430" lane="4o_0" pos="300" length="188" file="cross.out" tl="0" timeThreshold="0" speedThreshold="10" jamThreshold="1"  vTypes="truck"/>
+    <laneAreaDetector id="421" lane="4o_1" pos="300" length="188" file="cross.out" tl="0" timeThreshold="0" speedThreshold="10" jamThreshold="1"  vTypes="bus"/>
+    <laneAreaDetector id="420" lane="4o_0" pos="300" length="188" file="cross.out" tl="0" timeThreshold="0" speedThreshold="10" jamThreshold="1"  vTypes="bus"/>
+    <laneAreaDetector id="411" lane="4o_1" pos="300" length="188" file="cross.out" tl="0" timeThreshold="0" speedThreshold="10" jamThreshold="1"  vTypes="moped motorcycle"/>
+    <laneAreaDetector id="410" lane="4o_0" pos="300" length="188" file="cross.out" tl="0" timeThreshold="0" speedThreshold="10" jamThreshold="1"  vTypes="moped motorcycle"/>
+    <laneAreaDetector id="401" lane="4o_1" pos="300" length="188" file="cross.out" tl="0" timeThreshold="0" speedThreshold="10" jamThreshold="1"  vTypes="car taxi passenger"/>
+    <laneAreaDetector id="400" lane="4o_0" pos="300" length="188" file="cross.out" tl="0" timeThreshold="0" speedThreshold="10" jamThreshold="1"  vTypes="car taxi passenger"/>
+</additional>
